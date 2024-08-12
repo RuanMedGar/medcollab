@@ -4,29 +4,46 @@
       <title>MedCollab - Cadastro de Eventos</title>
        <link rel="stylesheet" href="styles.css"
     </head>
-     <body>
-  <header>
-  </header>
-  <form action="/envia-evento" method="post">
-  <label for="name">Nome</label>
-  <input type="text" id="name" />
-  <label for="date">Data</label>
-  <input type="text" id="date" />
-  <label for="org">Organizador</label>
-  <input type="text" id="org" />
-  <label for="local">Local</label>
-  <input type="text" id="local" />
-  <label for="link">Link</label>
-  <input type="text" id="link" />
-  <label for="description">Descrição</label>
-  <textarea id="description"></textarea>
-  <label for="taxes">Taxas</label>
-  <input type="text" id="taxes" />
-  <button type="submit">Criar o evento</button>
-  </form>
-  <footer>
-  </footer>   
-</body>
+    <body>
+      <header>
+        
+      </header>
+      <form action="/envia-evento" method="post">
+        <label for="name">Nome:</label>
+        <br>
+        <input type="text" id="name" required/>
+        <br>
+        <label for="date">Data do evento:</label>
+        <br>
+        <input type="date" id="date" required />
+        <br>
+        <label for="org">Organizador(es):</label>
+        <br>
+        <input type="text" id="org" />
+        <br>
+        <label for="local">Local</label>
+        <br>
+        <input type="local" id="local" />
+        <br>
+        <label for="link" placeholder="https://">Link informativo:</label>
+        <br>
+        <input type="link" id="link" />
+        <br>
+        <label for="description">Descrição do evento:</label>
+        <br>
+        <textarea id="description" placeholder="Descreva aqui o evento. Importante destacar publico-alvo."></textarea>
+        <br>
+        <label for="taxes">Preços:</label>
+        <br>
+        <input type="text" id="taxes" />
+        <br>
+        <button type="reset">Apagar</button>
+        <button type="submit">Criar o evento</button>
+      </form>
+      <footer>
+        
+      </footer>
+    </body>
 </html>
 
 
