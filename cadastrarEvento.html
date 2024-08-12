@@ -1,9 +1,33 @@
 <!doctype html>
-  <html>
+  <html lang="pt-BR">
     <head>
       <title>MedCollab - Cadastro de Eventos</title>
        <link rel="stylesheet" href="styles.css"
     </head>
      <body>
-     </body>
+  <header>
+  </header>
+  <form action="/envia-evento" method="post">
+  <label for="name">Nome</label>
+  <input type="text" id="name" />
+  <label for="date">Data</label>
+  <input type="text" id="date" />
+  <label for="org">Organizador</label>
+  <input type="text" id="org" />
+  <label for="local">Local</label>
+  <input type="text" id="local" />
+  <label for="link">Link</label>
+  <input type="text" id="link" />
+  <label for="description">Descrição</label>
+  <textarea id="description"></textarea>
+  <label for="taxes">Taxas</label>
+  <input type="text" id="taxes" />
+  <button type="submit">Criar o evento</button>
+  </form>
+  <footer>
+  </footer>   
+</body>
 </html>
+
+
+
