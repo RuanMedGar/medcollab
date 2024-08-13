@@ -5,6 +5,7 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+    
       <header>
         <nav>
           <ul>
