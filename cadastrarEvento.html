@@ -2,12 +2,12 @@
   <html lang="pt-BR">
     <head>
       <title>MedCollab - Cadastro de Eventos</title>
-       <link rel="stylesheet" href="styles.css"
+       <link rel="stylesheet" href="styles.css">
+       <script src="components/header.js" type="text/javascript" defer></script>
+      <script src="components/footer.js" type="text/javascript" defer></script>
     </head>
     <body>
-      <header>
-        
-      </header>
+      <header-component></header-component>
       <form action="/envia-evento" method="post">
         <label for="name">Nome:</label>
         <br>
@@ -40,9 +40,7 @@
         <button type="reset">Apagar</button>
         <button type="submit">Criar o evento</button>
       </form>
-      <footer>
-        
-      </footer>
+      <footer-component></footer-component>
     </body>
 </html>
 
