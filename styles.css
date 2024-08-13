@@ -17,6 +17,7 @@ nav {
   color:white;
   
   ul {
+    background: rgb(30, 130, 160);
     list-style-type: none;
     margin: 0;
     padding: 0;
