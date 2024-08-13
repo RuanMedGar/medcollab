@@ -5,7 +5,8 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    
+      <!-- Logo -->
+      <!-- Barra de pesquisa-->
       <header>
         <nav>
           <ul>
@@ -15,6 +16,7 @@ class Header extends HTMLElement {
           </ul>
         </nav>
       </header>
+      <!-- Pedido de doação -->
     `;
   }
 }
