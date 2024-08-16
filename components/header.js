@@ -8,7 +8,7 @@ class Header extends HTMLElement {
       <!-- Logo -->
       <!-- Barra de pesquisa-->
       <header>
-        <nav>
+        <nav class="navbar">
           <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="about.html">Sobre nós</a></li>
