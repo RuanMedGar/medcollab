@@ -13,12 +13,14 @@ class Footer extends HTMLElement {
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <ul class="social-row">
-          <li><a href="https://github.com/my-github-profile"><i class="ti ti-brand-github-filled"></i></a></li>
+          <li><a href="https://github.com/my-github-profile"><i class="ti ti-brand-whatsapp"></i></a></li>  
+          <li><a href="https://github.com/my-github-profile"><i class="ti ti-brand-instagram"></i></a></li> 
+          <li><a href="https://github.com/my-github-profile"><i class="ti ti-brand-github"></i></a></li>
           <li><a href="https://twitter.com/my-twitter-profile"><i class="ti ti-brand-x"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/my-linkedin-profile"><i class="ti ti-brand-linkedin"></i></a></li>    
-          <li><a href="https://github.com/my-github-profile"><i class="ti ti-brand-instagram"></i></a></li>      
+          <li><a href="https://www.linkedin.com/in/my-linkedin-profile"><i class="ti ti-brand-linkedin"></i></a></li>  
           <li><a href="https://github.com/my-github-profile"><i class="ti ti-brand-facebook"></i></a></li>
           <li><a href="https://github.com/my-github-profile"><i class="ti ti-brand-telegram"></i></a></li>
+          
         </ul>
       </footer>
     `;
