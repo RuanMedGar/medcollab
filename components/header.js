@@ -11,8 +11,8 @@ class Header extends HTMLElement {
         <nav class="navbar">
           <ul>
             <li><a href="index.html">Início</a></li>
-            <li><a href="about.html">Sobre nós</a></li>
             <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="about.html">Sobre nós</a></li>
           </ul>
         </nav>
       </header>

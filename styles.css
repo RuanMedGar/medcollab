@@ -4,9 +4,9 @@ body {
   font-size: 20px;
   font-weight: normal ;
   text-align: justify;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 input, textarea {
   width: 100%;
@@ -20,21 +20,40 @@ input, textarea {
 }
 
 .navbar {
-  color:white;
-  
+  display: block;
+  background: rgb(30, 130, 160);
+  margin-top: 0px;
   ul {
-    background: rgb(30, 130, 160);
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    display: block;
+    display: inline-block;
     li {
+      margin-left: auto;
+      margin-right: auto;
       float: left;
       a{
-         display: block;
+        color:white;
+        text-decoration: none;
+        text-align: center;
+        display: block;
         padding: 8px;
+      }
+      a:hover{
+        background: rgb(30, 75, 150);
+      }
+      a:active{
+        background: rgb(30, 130, 160);
       }
     }
   }
   
+}
+
+.social-row{
+  list-style-type: none;
+  display: inline-flex;
+  a{
+    color: white;
+    text-decoration: none;
+  }
 }
