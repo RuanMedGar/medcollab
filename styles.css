@@ -1,8 +1,8 @@
 body {
   background: rgb(40, 190, 230);
-  color:white;
+  color: white;
   font-size: 20px;
-  font-weight: normal ;
+  font-weight: normal;
   text-align: justify;
   margin-top: 0px;
   margin-left: 0px;
@@ -16,7 +16,7 @@ header {
 .navbar {
   display: block;
   background: rgb(30, 130, 160);
-  padding:0px;
+  padding: 0px;
   ul {
     list-style-type: none;
     margin: 0px;
@@ -25,8 +25,8 @@ header {
       margin-left: auto;
       margin-right: auto;
       float: left;
-      a{
-        color:white;
+      a {
+        color: white;
         text-decoration: none;
         text-align: center;
         display: block;
@@ -35,25 +35,24 @@ header {
         padding-left: 20px;
         padding-right: 20px;
       }
-      a:hover{
+      a:hover {
         background: rgb(30, 75, 150);
       }
-      a:active{
+      a:active {
         background: rgb(30, 130, 160);
       }
     }
   }
-  
 }
 
-
-main{
+main {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   margin-right: 10px;
 }
@@ -65,7 +64,7 @@ input, textarea {
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 5px;
-  h1{
+  h1 {
     width: 300px;
     font-weight: bold;
     margin-left: auto;
@@ -73,10 +72,10 @@ input, textarea {
   }
 }
 
-.social-row{
+.social-row {
   list-style-type: none;
   display: inline-flex;
-  a{
+  a {
     color: white;
     text-decoration: none;
   }
