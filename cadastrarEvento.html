@@ -1,80 +1,66 @@
-<!doctype html>
-  <html lang="pt-BR">
-    <head>
-      <title>MedCollab - Cadastro de Eventos</title>
-       <link rel="stylesheet" href="styles.css">
-       <script src="components/header.js" type="text/javascript" defer></script>
-      <script src="components/footer.js" type="text/javascript" defer></script>
-    </head>
-    <body>
-      <header-component></header-component>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>MedCollab - Cadastro de Eventos</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <link rel="stylesheet" href="cadastro.css" />
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header-component></header-component>
     <main>
+      <div id="banner">
         <h1>CADASTRE SEU EVENTO</h1>
-        <p>O evento precisa estar correlacionado à área da saúde para ser aprovado. Não há restrição quanto a modalidade e custos. Seja descritivo para atrair seu público.</p>
-        <div>
-            <img class="birds" src="https://images.unsplash.com/photo-1579762715459-5a068c289fda?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=boston-public-library-_f9cP4_unmg-unsplash.jpg&w=640">
-        </div>
+        <p>
+          O evento precisa estar correlacionado à área da saúde para ser
+          aprovado.
+        </p>
+        <p>
+          Não há restrição quanto a modalidade e custos. Seja descritivo para
+          atrair seu público.
+        </p>
+        <img
+          class="birds"
+          src="https://images.unsplash.com/photo-1579762715459-5a068c289fda?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=boston-public-library-_f9cP4_unmg-unsplash.jpg&w=640"
+        />
+      </div>
       <form class="cadastroEvento" action="/envia-evento" method="post">
         <label for="name">NOME:</label>
-        <br>
-        <input type="text" id="name" required/>
-        <br>
+        <br />
+        <input type="text" id="name" required />
+        <br />
         <label for="date">DATA DO EVENTO:</label>
-        <br>
+        <br />
         <input type="date" id="date" required />
-        <br>
+        <br />
         <label for="org">Organizador(es):</label>
-        <br>
+        <br />
         <input type="text" id="org" />
-        <br>
+        <br />
         <label for="local">Local</label>
-        <br>
+        <br />
         <input type="local" id="local" />
-        <br>
+        <br />
         <label for="link">Link informativo:</label>
-        <br>
-        <input type="link" id="link" placeholder="https://"/>
-        <br>
+        <br />
+        <input type="link" id="link" placeholder="https://" />
+        <br />
         <label for="description">Descrição do evento:</label>
-        <br>
-        <textarea id="description" placeholder="Descreva aqui o evento. Importante destacar publico-alvo."></textarea>
-        <br>
+        <br />
+        <textarea
+          id="description"
+          placeholder="Descreva aqui o evento. Importante destacar publico-alvo."
+        ></textarea>
+        <br />
         <label for="taxes">Preços:</label>
-        <br>
-        <input type="text" id="taxes" placeholder="R$ 0,00"/>
-        <br>
+        <br />
+        <input type="text" id="taxes" placeholder="R$ 0,00" />
+        <br />
         <button type="reset">Apagar</button>
         <button type="submit">Criar o evento</button>
       </form>
-      </main>
-      <footer-component></footer-component>
-    </body>
+    </main>
+    <footer-component></footer-component>
+  </body>
 </html>
-
-comentario
-main{
-    display: flexbox;
-    
-}
-.birds{
-    width: 400px;
-}
-.cadastroEvento{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-
-    input{
-        margin-bottom: 10px;
-        margin-top: 3px;
-    }
-    label{
-        border-radius: 2px;
-        background-color: red;
-        color:white;
-        padding: 3px;
-    }
-}
-
-
-

@@ -4,9 +4,7 @@ body {
   font-size: 20px;
   font-weight: normal;
   text-align: justify;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px 20px;
 }
 
 header {
@@ -46,9 +44,7 @@ header {
 }
 
 main {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 10px 20px;
 }
 
 input,
